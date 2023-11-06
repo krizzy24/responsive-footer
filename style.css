@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;1,200;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: lightblue;
+    padding: 20px;
+}
+.footer-child1{
+    flex: 35%;
+}
+.footer-child2{
+    flex: 16%;
+}
+.footer-child3{
+    flex: 16%;
+}
+.footer-child4{
+    flex: 16%;
+}
+.footer-child5{
+    flex: 17%;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    color: tomato;
+}
+.footer-paragraph{
+    text-align: justify;
+}
+
+/* Extra small devices */
+@media (max-width: 576px) { 
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+       }
+    
+       .footer-child1{
+        flex: 100%;
+    
+       }
+       .footer-child2{
+        flex: 33%;
+       }
+       .footer-child3{
+        flex: 33%;
+       }
+       .footer-child4{
+        flex: 34%;
+       }
+       .footer-child5{
+        flex: 100%;
+        display: flex;
+        justify-content: space-around;
+       }
+} 
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 768px) { 
+    footer{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-child1{
+        flex: 100%;
+    
+       }
+       .footer-child2{
+        flex: 33%;
+       }
+       .footer-child3{
+        flex: 33%;
+       }
+       .footer-child4{
+        flex: 34%;
+       }
+       .footer-child5{
+        flex: 100%;
+        
+       }
+    
+ } 
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 992px)  { /* ... */ } 
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) and (max-width: 1200px)  { /* ... */ }
+
+/* mobile screen media queries
+@media screen and (min-width: 320px) {
+  
+    
+} */
